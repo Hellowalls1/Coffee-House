@@ -1,0 +1,43 @@
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 1em;
+    text-align: left
+
+}
+
+.shop{
+    justify-content: space-evenly;
+    flex-basis: 25%;
+    border: 1px dotted black;
+    padding: .2em;
+    background-image: url("images/newwoodbackground.jpg");
+    font-weight: bold;
+    color: sandybrown;
+   
+
+}
+
+.pageHeader {
+
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px
+    
+}
+
+a:link {
+    color: sandybrown
+
+}
+a:visited {
+    color: sandybrown
+
+}
+
+.shopmenu {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1em
+}
